@@ -18,7 +18,7 @@ public class Ejercicio8_bucles {
         {// aqui leemos filas
             for (columna=0; columna < lado; columna ++)//mi idea ha sido hacer un bucle dentro de otro donde se lean las filas para que cuando el bucle acabe haya un salto de línea
             {//aquí leemos columnas
-                if (columna == 0 || columna == lado -1 || fila == 0 || fila == lado - 1)
+                if (columna == 0 || columna == (lado -1) || fila == 0 || fila == (lado - 1))
                 {
                     System.out.print("*");
                 }else
