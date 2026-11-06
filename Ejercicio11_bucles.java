@@ -12,14 +12,34 @@ public class Ejercicio11_bucles {
 
         System.out.println("Introduce un número y determinaré si es primo");
         int num = entrada.nextInt();
+        String primo = "blabla";
 
-        if (num < 0)
+        if (num < 2)
         {
             System.out.println("Número no válido");
 
         }else
         {
+            int contador = 2;
+            while (contador < num && 0 == num % contador)
+            {
+                contador++;
+
+            }
+
+            if (contador < num)
+            {
+               primo = "Es primo";
+
+            }else
+           {
+               primo = "No es primo";
+           }
+           System.out.println(primo);
+
 
         }
+
+
     }
 }
