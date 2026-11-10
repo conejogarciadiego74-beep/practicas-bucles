@@ -29,12 +29,12 @@ public class Ejercicio11_bucles {
 
             if (contador < num)
             {
-               primo = "Es primo";
+                primo = "No es primo";
 
             }else
-           {
-               primo = "No es primo";
-           }
+            {
+                primo = " Es primo";
+            }
            System.out.println(primo);
 
 
